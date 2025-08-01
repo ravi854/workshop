@@ -1,0 +1,268 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "OFI-.yyyy.-",
+ "creation": "2024-11-28 15:09:59.015457",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_3gew",
+  "oficina_job_no",
+  "oficina_account_no",
+  "quotation",
+  "quotation_date",
+  "invoice_no",
+  "date_in",
+  "invoice_date",
+  "column_break_yyvs",
+  "order_no",
+  "km",
+  "redo_no",
+  "carcode",
+  "vin",
+  "model",
+  "account_2",
+  "column_break_i283",
+  "customer",
+  "customer_name",
+  "cash_sale_customer",
+  "invoice_total_exl",
+  "contract",
+  "reg",
+  "engine",
+  "tax",
+  "total",
+  "section_break_h2lr",
+  "job_description",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_3gew",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "oficina_job_no",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "label": "Oficina Job No",
+   "read_only": 1
+  },
+  {
+   "fieldname": "oficina_account_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Oficina Account No",
+   "read_only": 1
+  },
+  {
+   "fieldname": "quotation",
+   "fieldtype": "Data",
+   "label": "Quotation",
+   "read_only": 1
+  },
+  {
+   "fieldname": "quotation_date",
+   "fieldtype": "Data",
+   "label": "Quotation Date",
+   "read_only": 1
+  },
+  {
+   "fieldname": "invoice_no",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Invoice No",
+   "read_only": 1
+  },
+  {
+   "fieldname": "date_in",
+   "fieldtype": "Date",
+   "label": "Date In",
+   "read_only": 1
+  },
+  {
+   "fieldname": "invoice_date",
+   "fieldtype": "Date",
+   "label": "Invoice Date",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_yyvs",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "order_no",
+   "fieldtype": "Data",
+   "label": "Order No",
+   "read_only": 1
+  },
+  {
+   "fieldname": "km",
+   "fieldtype": "Int",
+   "label": "KM",
+   "read_only": 1
+  },
+  {
+   "fieldname": "redo_no",
+   "fieldtype": "Data",
+   "label": "REDO No",
+   "read_only": 1
+  },
+  {
+   "fieldname": "carcode",
+   "fieldtype": "Data",
+   "label": "Carcode",
+   "read_only": 1
+  },
+  {
+   "fieldname": "vin",
+   "fieldtype": "Data",
+   "label": "VIN",
+   "read_only": 1
+  },
+  {
+   "fieldname": "model",
+   "fieldtype": "Data",
+   "label": "Model",
+   "read_only": 1
+  },
+  {
+   "fieldname": "account_2",
+   "fieldtype": "Data",
+   "label": "Account 2",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_i283",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "customer",
+   "fieldtype": "Link",
+   "label": "Customer",
+   "options": "Customer",
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "customer_name",
+   "fieldtype": "Data",
+   "label": "Customer Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "cash_sale_customer",
+   "fieldtype": "Data",
+   "label": "Cash Sale Customer",
+   "read_only": 1
+  },
+  {
+   "fieldname": "invoice_total_exl",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Invoice Total (Exl)",
+   "read_only": 1
+  },
+  {
+   "fieldname": "contract",
+   "fieldtype": "Data",
+   "label": "Contract",
+   "read_only": 1
+  },
+  {
+   "fieldname": "reg",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Reg",
+   "read_only": 1
+  },
+  {
+   "fieldname": "engine",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "label": "Engine",
+   "read_only": 1
+  },
+  {
+   "fieldname": "tax",
+   "fieldtype": "Currency",
+   "is_virtual": 1,
+   "label": "Tax",
+   "read_only": 1
+  },
+  {
+   "fieldname": "total",
+   "fieldtype": "Currency",
+   "is_virtual": 1,
+   "label": "Total",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_h2lr",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "job_description",
+   "fieldtype": "Data",
+   "label": "Job Description",
+   "read_only": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Oficina jobs",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-11-28 15:40:40.068216",
+ "modified_by": "Administrator",
+ "module": "Workshop",
+ "name": "Oficina Jobs",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Sales User",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
